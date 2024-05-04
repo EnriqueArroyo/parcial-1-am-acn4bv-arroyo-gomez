@@ -1,6 +1,7 @@
 package com.example.grupofacil;
 
 import android.os.Bundle;
+import android.view.ViewGroup;
 import android.widget.TextView;
 
 import androidx.activity.EdgeToEdge;
@@ -12,6 +13,7 @@ import android.widget.ScrollView;
 import android.graphics.Typeface;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.res.ResourcesCompat;
+import androidx.core.content.ContextCompat;
 
 import com.google.android.material.bottomappbar.BottomAppBar;
 
@@ -33,14 +35,25 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 // Crear un nuevo botón
                 Button newButton = new Button(getApplicationContext());
-                newButton.setLayoutParams(new LinearLayout.LayoutParams(
-                        LinearLayout.LayoutParams.WRAP_CONTENT,
-                        LinearLayout.LayoutParams.WRAP_CONTENT));
-                newButton.setText("Grupo nuevo");
 
-                // Establecer la fuente desde el archivo de recurso de fuente
+                // Configurar el texto y la fuente del botón
+                newButton.setText("Grupo nuevo");
                 Typeface typeface = ResourcesCompat.getFont(getApplicationContext(), R.font.poppins);
                 newButton.setTypeface(typeface);
+
+                // Configurar el tamaño y el color de fondo del botón
+                LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(
+                        LinearLayout.LayoutParams.MATCH_PARENT, // Ancho MATCH_PARENT
+                        LinearLayout.LayoutParams.WRAP_CONTENT); // Alto WRAP_CONTENT
+                newButton.setBackgroundResource(R.drawable.button_background); // Fondo del botón
+
+                // Configurar el margen inferior del botón
+                layoutParams.setMargins(0, 0, 5, 16); // Margen inferior de 16dp
+
+                // Aplicar los parámetros de diseño al botón
+                newButton.setLayoutParams(layoutParams);
+                newButton.setTextAlignment(View.TEXT_ALIGNMENT_TEXT_START);
+
 
                 // Agregar el nuevo botón al LinearLayout dentro del ScrollView
                 linearLayout.addView(newButton);
