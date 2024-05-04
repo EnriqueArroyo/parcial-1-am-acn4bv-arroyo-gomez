@@ -9,6 +9,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
+import android.graphics.Typeface;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.core.content.res.ResourcesCompat;
 
 import com.google.android.material.bottomappbar.BottomAppBar;
 
@@ -33,7 +36,11 @@ public class MainActivity extends AppCompatActivity {
                 newButton.setLayoutParams(new LinearLayout.LayoutParams(
                         LinearLayout.LayoutParams.WRAP_CONTENT,
                         LinearLayout.LayoutParams.WRAP_CONTENT));
-                newButton.setText("Button");
+                newButton.setText("Grupo nuevo");
+
+                // Establecer la fuente desde el archivo de recurso de fuente
+                Typeface typeface = ResourcesCompat.getFont(getApplicationContext(), R.font.poppins);
+                newButton.setTypeface(typeface);
 
                 // Agregar el nuevo botón al LinearLayout dentro del ScrollView
                 linearLayout.addView(newButton);
