@@ -17,16 +17,18 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintHorizontal_bias="0.107"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.095" />
+        app:layout_constraintVertical_bias="0.093" />
 
     <ScrollView
         android:id="@+id/scrollView"
-        android:layout_width="387dp"
-        android:layout_height="539dp"
+        android:layout_width="339dp"
+        android:layout_height="538dp"
         android:layout_marginTop="11dp"
+        android:background="@drawable/scrollview_background"
+        android:foregroundTint="@color/blue"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView">
@@ -35,7 +37,9 @@
             android:id="@+id/linearLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            >
+
 
         </LinearLayout>
     </ScrollView>
@@ -45,7 +49,7 @@
         android:layout_width="122dp"
         android:layout_height="58dp"
         android:layout_marginTop="560dp"
-        android:backgroundTint="#03A9F4"
+        android:backgroundTint="@color/blue"
         android:fontFamily="@font/poppins_semibold"
         android:text="Agregar"
         app:layout_constraintEnd_toEndOf="parent"
