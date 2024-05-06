@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         ScrollView scrollView = findViewById(R.id.scrollView);
         final LinearLayout linearLayout = findViewById(R.id.linearLayout);
 
-        // Paso 3: Agregar un botón nuevo al presionar el botón "Agregar botón"
+        //Agregar un botón nuevo al presionar el botón "Agregar botón"
         addButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
