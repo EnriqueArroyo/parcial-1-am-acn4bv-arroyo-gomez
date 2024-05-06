@@ -6,8 +6,8 @@
     <solid android:color="@color/blue"
         /> <!-- Color de fondo blanco -->
 
-    <stroke android:color="@color/black"
-        android:width="1dp"/>
+    <stroke android:color="@color/orange"
+        android:width="2dp"/>
 
     <padding
         android:bottom="10dp"
