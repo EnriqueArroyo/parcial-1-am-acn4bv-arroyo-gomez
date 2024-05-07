@@ -12,6 +12,7 @@ Fecha de entrega: 8 de Mayo
 Enlace Figma:
 https://www.figma.com/file/cCQOzfsbxEKUXRN4Pdj1IG/appmobile?type=design&node-id=0%3A1&mode=design&t=8mgNMV7bbDRfZTSs-1
 Enlace Github:
+
 https://github.com/EnriqueArroyo/parcial-1-am-acn4bv-arroyo-gomez
 
 ### Datos del Producto:
@@ -31,7 +32,7 @@ Facilitar la creación, almacenamiento, visualización, actualización y elimina
 Fuente: Poppins
 Paleta de colores consideradas para el proyecto:
 
-![Untitled](Primer%20Parcial%20ACN4BV%20fa391615738a43efa4aa58ffa9f7aef5/Untitled.png)
+<img src="/README.RES/Untitled.png" width="300">
 
 ### Pantalla elegida para desarrollar:
 
@@ -54,13 +55,13 @@ Tiene dos flujos de salida que derivan en las pantallas:
 
 **Mockup:**
 
-![Untitled|5](https://drive.google.com/uc?export=downloead&id=1n6UVRJJDI47vMwe2frX0UC7lXHpAAujN
+<img src="/README.RES/Untitled1.png" width="300">
 
 
 
 **Maqueta Técnica:**
 
-<div style="text-align:center"><img src="/README.RES/Untitled2.png" width="300"></div>
+<img src="/README.RES/Untitled2.png" width="300">
 
 
 
@@ -102,7 +103,7 @@ app:layout_constraintTop_toTopOf="@+id/scrollView"
 
 ### **LinearLayouts, Button y Textview:**
 
-![Untitled](Primer%20Parcial%20ACN4BV%20fa391615738a43efa4aa58ffa9f7aef5/Untitled%204.png)
+<img src="/README.RES/Untitled4.png" width="500">
 
 ### **Contenidos reales:**
 
@@ -180,7 +181,7 @@ Son los botones “Grupo nuevo” que se crean dentro del ScrollView
 Y
 Los cambios deben ser realizados por ambos miembros del equipo, y visualizarse en el github.
 
-![Untitled](Primer%20Parcial%20ACN4BV%20fa391615738a43efa4aa58ffa9f7aef5/Untitled%205.png)
+<img src="/README.RES/Untitled5.png" width="400">
 
 Hasta el momento dividimos el proyecto en dos ramas. Master o Main para tener el contenido funcionando y asegurado. Dev para el entorno de desarrollo compartido entre los dos miembros.
 
@@ -193,7 +194,7 @@ NOTA: Captura hasta el momento de la creación de la documentación
 > Deberán realizar un informe que describa por cada pantalla a realizar con las funcionalidades esperadas, desarrollando el flujo de uso de la misma. La elección de la herramienta para el desarrollo del mock es libre.
 >
 
-![Untitled](Primer%20Parcial%20ACN4BV%20fa391615738a43efa4aa58ffa9f7aef5/Untitled%206.png)
+<img src="/README.RES/Untitled6.png" width="550">
 
 1)
 **Nombre:** Login
@@ -289,19 +290,19 @@ Se especifica al principio del documento la paleta sugerida y la fuente.
 - Variables de String
 - No tenemos al menos para esta pantalla muchas palabras que puedan variar
 
-![Untitled](README.RES/Untitled%207.png)
+<img src="/README.RES/Untitled7.png" width="550">
 
 - Variables de Dimensiones
   -Estimamos son los drawable
 
-![Untitled](Primer%20Parcial%20ACN4BV%20fa391615738a43efa4aa58ffa9f7aef5/Untitled%208.png)
+<img src="/README.RES/Untitled8.png" width="550">
 
-![Untitled](Primer%20Parcial%20ACN4BV%20fa391615738a43efa4aa58ffa9f7aef5/Untitled%209.png)
+<img src="/README.RES/Untitled9.png" width="550">
 
 - Variables de Colores
   -También tenemos poquitos de momento
 
-![Untitled](Primer%20Parcial%20ACN4BV%20fa391615738a43efa4aa58ffa9f7aef5/Untitled%2010.png)
+<img src="/README.RES/Untitled10.png" width="550">
 
 ### La aplicación debe tener comportamiento dinámico:
 
