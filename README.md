@@ -59,7 +59,7 @@ Tiene dos flujos de salida que derivan en las pantallas:
 
 **Maqueta Técnica:**
 
-![Untitled](README.RES\Untiled2.png)
+![Untitled|100](README.RES\Untiled2.png)
 
 **Desarrollo:**
 
