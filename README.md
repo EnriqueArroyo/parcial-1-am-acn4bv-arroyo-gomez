@@ -54,12 +54,12 @@ Tiene dos flujos de salida que derivan en las pantallas:
 
 **Mockup:**
 
-![Untitled](https://drive.google.com/uc?export=downloead&id=1n6UVRJJDI47vMwe2frX0UC7lXHpAAujN
+![Untitled|100](https://drive.google.com/uc?export=downloead&id=1n6UVRJJDI47vMwe2frX0UC7lXHpAAujN
 )
 
 **Maqueta Técnica:**
 
-![Untitled|100](README.RES\Untiled2.png)
+![Untitled|100](README.RES\Untitled2.png)
 
 **Desarrollo:**
 
