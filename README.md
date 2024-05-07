@@ -1,7 +1,7 @@
 # Primer Parcial ACN4BV
 
 ### Arroyo Enrique
-Gomez Marco
+### Gomez Marco
 
 Fecha de entrega: 8 de Mayo
 
@@ -54,11 +54,12 @@ Tiene dos flujos de salida que derivan en las pantallas:
 
 **Mockup:**
 
-![Untitled](Primer%20Parcial%20ACN4BV%20fa391615738a43efa4aa58ffa9f7aef5/Untitled%201.png)
+![Untitled](https://drive.google.com/uc?export=downloead&id=1n6UVRJJDI47vMwe2frX0UC7lXHpAAujN
+)
 
 **Maqueta Técnica:**
 
-![Untitled](Primer%20Parcial%20ACN4BV%20fa391615738a43efa4aa58ffa9f7aef5/Untitled%202.png)
+![Untitled](README.RES\Untiled2.png)
 
 **Desarrollo:**
 
@@ -285,7 +286,7 @@ Se especifica al principio del documento la paleta sugerida y la fuente.
 - Variables de String
 - No tenemos al menos para esta pantalla muchas palabras que puedan variar
 
-![Untitled](Primer%20Parcial%20ACN4BV%20fa391615738a43efa4aa58ffa9f7aef5/Untitled%207.png)
+![Untitled](README.RES/Untitled%207.png)
 
 - Variables de Dimensiones
   -Estimamos son los drawable
