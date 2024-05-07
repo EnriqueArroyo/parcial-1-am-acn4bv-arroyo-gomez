@@ -11,8 +11,8 @@ Fecha de entrega: 8 de Mayo
 
 Enlace Figma:
 https://www.figma.com/file/cCQOzfsbxEKUXRN4Pdj1IG/appmobile?type=design&node-id=0%3A1&mode=design&t=8mgNMV7bbDRfZTSs-1
-Enlace Github:
 
+Enlace Github:
 https://github.com/EnriqueArroyo/parcial-1-am-acn4bv-arroyo-gomez
 
 ### Datos del Producto:
@@ -67,7 +67,7 @@ Tiene dos flujos de salida que derivan en las pantallas:
 
 **Desarrollo:**
 
-![Untitled](Primer%20Parcial%20ACN4BV%20fa391615738a43efa4aa58ffa9f7aef5/Untitled%203.png)
+<img src="/README.RES/Untitled3.png" width="300">
 
 ## Implementaciones Obligatorias:
 
@@ -191,12 +191,12 @@ NOTA: Captura hasta el momento de la creación de la documentación
 
 ### Deberán realizar un informe:
 
-> Deberán realizar un informe que describa por cada pantalla a realizar con las funcionalidades esperadas, desarrollando el flujo de uso de la misma. La elección de la herramienta para el desarrollo del mock es libre.
+> "Deberán realizar un informe que describa por cada pantalla a realizar con las funcionalidades esperadas, desarrollando el flujo de uso de la misma. La elección de la herramienta para el desarrollo del mock es libre."
 >
 
 <img src="/README.RES/Untitled6.png" width="550">
 
-1)
+1-
 **Nombre:** Login
 
 **Funcionalidades esperadas:**
@@ -205,85 +205,87 @@ NOTA: Captura hasta el momento de la creación de la documentación
 
 **Flujo:** Direcciona a pantalla 2
 
-2)
+2-
 **Nombre:** Home
 
 **Funcionalidades esperadas:**
--Crear un grupo nuevo.
--Mostrar grupos existentes
--Ver un grupo existente
+- Crear un grupo nuevo. 
+- Mostrar grupos existentes 
+- Ver un grupo existente
 
 **Flujo:** Direcciona a pantalla 3 o 4.1
-****
 
-3)
+
+3-
 **Nombre:** Ver grupo
 
 **Funcionalidades esperadas:**
--Mostrar datos y contenidos del grupo seleccionado
--Eliminar grupo
--Volver a generar → Vuelve a rearmar de forma aleatoria los grupos
-
-**Flujo:
--** Volver atrás → Pantalla 2
-****
-
-4.1)
-**Nombre:** Nuevo Grupo
-
-**Funcionalidades esperadas:
--** Primer paso a la creación del grupo.
-**-** Completar el nombre del grupo nuevo.
+- Mostrar datos y contenidos del grupo seleccionado 
+- Eliminar grupo 
+- Volver a generar → Vuelve a rearmar de forma aleatoria los grupos
 
 **Flujo:**
--Volver atrás → Cancelar
--Pantalla 4.2 → Continuar
+- Volver atrás → Pantalla 2
 
-4.2)
+
+4.1-
+**Nombre:** Nuevo Grupo
+
+**Funcionalidades esperadas:**
+- Primer paso a la creación del grupo.
+- Completar el nombre del grupo nuevo.
+
+**Flujo:**
+- Volver atrás → Cancelar 
+- Pantalla 4.2 → Continuar
+
+4.2-
 **Nombre:** Descripción
 
 **Funcionalidades esperadas:**
--Colocar una descripción opcional al grupo nuevo.
+- Colocar una descripción opcional al grupo nuevo.
 
 **Flujo:**
--Volver atrás
--Pantalla 4.3 → Continuar
+- Volver atrás 
+- Pantalla 4.3 → Continuar
 
-4.3)
+4.3-
 **Nombre:** Participantes
 
 **Funcionalidades esperadas:**
--Completar una lista de participantes (Nombre)
+- Completar una lista de participantes (Nombre)
 
 **Flujo:**
--Volver atrás
--Pantalla 4.4 → Continuar
+- Volver atrás 
+- Pantalla 4.4 → Continuar
 
-4.4)
+4.4-
 **Nombre:** Configuración
 
 **Funcionalidades esperadas:**
--Seleccionar la cantidad de participantes por grupo
+- Seleccionar la cantidad de participantes por grupo
 
 **Flujo:**
--Volver atrás
--Pantalla 4.5 → Continuar
+- Volver atrás 
+- Pantalla 4.5 → Continuar
 
-4.5)
+4.5-
 **Nombre:** Confirmación
 
 **Funcionalidades esperadas:**
--Calcular y armar los grupos de forma aleatoria en base a la configuración
--Previsualizar todos los datos del Grupo creado, incluyendo la lista de participantes subdividida por grupos.
--Guardar datos al Completar.
+- Calcular y armar los grupos de forma aleatoria en base a la configuración 
+- Previsualizar todos los datos del Grupo creado, incluyendo la lista de participantes subdividida por grupos. 
+- Guardar datos al Completar.
 
 **Flujo:**
--Volver atrás
--Pantalla 2 → Completar
+- Volver atrás 
+- Pantalla 2 → Completar
+
 
 ### Se valorará la elección de colores/diseño
 
 Se especifica al principio del documento la paleta sugerida y la fuente.
+
 
 ### Deben organizarse apropiadamente:
 
@@ -292,25 +294,25 @@ Se especifica al principio del documento la paleta sugerida y la fuente.
 
 <img src="/README.RES/Untitled7.png" width="550">
 
-- Variables de Dimensiones
-  -Estimamos son los drawable
+- Variables de Dimensiones 
+Estimamos son los drawable
 
 <img src="/README.RES/Untitled8.png" width="550">
 
 <img src="/README.RES/Untitled9.png" width="550">
 
-- Variables de Colores
-  -También tenemos poquitos de momento
+- Variables de Colores 
+También tenemos poquitos de momento
 
 <img src="/README.RES/Untitled10.png" width="550">
 
-### La aplicación debe tener comportamiento dinámico:
+### "La aplicación debe tener comportamiento dinámico:
 
 > La aplicación debe tener comportamiento dinámico, es decir, que al interactuar con los elementos responda modificando algo en relación al objetivo de la aplicación, por ejemplo: al hacer click en un botón que sea agregar X cosa, es incluya en una ScrollView, al agregar varios se puedan visualizar cada una.
 >
 >
 > El botón ID: addButton mediante el evento que lo recurre “addButton.setOnClickListener” se encarga de agregar en la misma pantalla (en el ScrollView) un botón nuevo que representa un **Grupo** creado por el usuario tras haber completado el formulario de las pantallas 4.
-> Estos grupos se convertirán en clases con sus propias propiedades y atributos pero por el momento solo se crean de forma hardcodeada como un botón mas llamado “Grupo nuevo”.
+> Estos grupos se convertirán en clases con sus propias propiedades y atributos pero por el momento solo se crean de forma hardcodeada como un botón mas llamado “Grupo nuevo”."
 >
 
 ### Mientras más interacciones/comportamientos se incluya, mayor será la valoración.
