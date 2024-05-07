@@ -55,13 +55,13 @@ Tiene dos flujos de salida que derivan en las pantallas:
 **Mockup:**
 
 ![Untitled|5](https://drive.google.com/uc?export=downloead&id=1n6UVRJJDI47vMwe2frX0UC7lXHpAAujN
-){width=40%}
+
 
 
 **Maqueta Técnica:**
 
-![Untitled|5](/README.RES/Untitled2.png)
-<img src="/README.RES/Untitled2.png" width="10" height="10">
+<div style="text-align:center"><img src="/README.RES/Untitled2.png" width="300"></div>
+
 
 
 **Desarrollo:**
